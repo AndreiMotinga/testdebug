@@ -4,6 +4,8 @@ import './App.css';
 
 class App extends Component {
   render() {
+    let foo = "testing if this is in scope and if the below debugger executes";
+    debugger
     return (
       <div className="App">
         <header className="App-header">
